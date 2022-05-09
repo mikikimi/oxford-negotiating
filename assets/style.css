@@ -153,6 +153,10 @@ p {
   .to-top-form {
     padding: 10px 2px;
     font-size: 13px;
+    width: 50px;
+    top: 50%;
+    bottom: auto;
+    transform: translate(0, -50%);
   }
 
   .btn-media, .btn-rate, .btn-top {
@@ -179,9 +183,5 @@ p {
 
 @media screen and (max-width: 680px) {
   .to-top-form {
-    width: 50px;
-    top: 50%;
-    bottom: auto;
-    transform: translate(0, -50%);
   }
 }
