@@ -162,7 +162,8 @@ p {
 
   .btn-group {
     padding: 2px;
-    max-width: calc(100% - 4px);
+    max-width: 100%;
+    margin:  0;
   }
 
   .num-of-track {
